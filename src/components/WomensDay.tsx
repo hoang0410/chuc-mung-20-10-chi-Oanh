@@ -16,23 +16,23 @@ import flower5 from "@/assets/flower5.jpg";
 const messages = [
   {
     img: flower1,
-    text: "Chúc bạn luôn vui vẻ, xinh đẹp và ngập tràn yêu thương!",
+    text: "Chị Oanh mãi đỉnk!!!",
   },
   {
     img: flower2,
-    text: "Mỗi ngày của bạn đều là một đoá hoa nở rộ.",
+    text: "Team Seedbee chúc chị 1 ngày 20/10 thật tuyệt vời!",
   },
   {
     img: flower3,
-    text: "Cảm ơn bạn vì đã luôn mạnh mẽ và tuyệt vời như thế!",
+    text: "20/10 chúc nữ tước của Ngọc An luôn toả sáng như ánh mặt trời",
   },
   {
     img: flower4,
-    text: "Chúc bạn một ngày 20/10 thật hạnh phúc và trọn vẹn!",
+    text: "Chúc chị xjnh đẹp, thành đạt, giàu có 🫶",
   },
   {
     img: flower5,
-    text: "Bạn là món quà tuyệt vời nhất mà cuộc sống mang lại!",
+    text: "Chúc chị lun vui vẻ và hạnh phúc bên gia đình và những người thân yêu!",
   },
 ];
 
@@ -42,7 +42,7 @@ const WomensDay = () => {
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
   const [showPopup, setShowPopup] = useState(false);
   const [centerText, setCenterText] = useState(
-    "Ngày Phụ nữ Việt Nam\nMong bạn luôn rạng rỡ như những bó hoa!"
+    "Ngày Phụ nữ Việt Nam\nMong chị Oanh luôn rạng rỡ như những bó hoa!"
   );
   const audioRef = useRef<HTMLAudioElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
